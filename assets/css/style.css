@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* backgrounds */
+.bg{
+    background-color: #efefef;
+}
+
+/* navbar */
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+/* buttons */
+#button-book {
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 25px;
+    width: 150px;
+}
+
+/* logo */
+.img-fluid {
+    margin-left: 25px;
+}
+
+/* fonts */
+
+    /* font title modal form */
+    #BookModalLabel {
+        font-weight: 600;
+        font-size: 1.85rem;
+    }

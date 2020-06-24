@@ -1,8 +1,25 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="assets/images/traveltips_log2_min.png" style="margin: 0;">
 
-Welcome USER_NAME,
+# README FILE
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## navbar:
+
+Used links to style the navbar with Bootstrap:
+https://startbootstrap.com/snippets/navbar-logo/
+https://getbootstrap.com/docs/4.5/components/navbar/
+
+
+### logo:
+
+I made the logo on:
+https://secure.logomaker.com
+
+### modal:
+The cta on the mainpage is a button that says "book now". When you click on it a modal pops up.
+The basics of this Modal (with form) are styled with Bootstrap:
+https://getbootstrap.com/docs/4.5/components/modal/ ~ modal
+https://getbootstrap.com/docs/4.5/components/forms/ ~ form
+
 
 ## Gitpod Reminders
 
