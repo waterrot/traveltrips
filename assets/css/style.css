@@ -4,6 +4,20 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* transformation, genaral settings, padding and margin */
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /* backgrounds */
 .bg{
     background-color: #efefef;
@@ -34,3 +48,26 @@ body {
         font-weight: 600;
         font-size: 1.85rem;
     }
+
+/* footer */
+footer .footer-general {
+     background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    padding: 20px;
+}
+
+footer a {
+    color: lightgrey;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    margin: 0px 0px 8px;
+}
+
+footer a:hover {
+    color:lightskyblue;
+    text-decoration: none;
+}

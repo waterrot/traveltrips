@@ -4,7 +4,7 @@
 
 ## navbar:
 
-Used links to style the navbar with Bootstrap:
+Used these links to style the navbar with Bootstrap:
 https://startbootstrap.com/snippets/navbar-logo/
 https://getbootstrap.com/docs/4.5/components/navbar/
 
@@ -20,6 +20,12 @@ The basics of this Modal (with form) are styled with Bootstrap:
 https://getbootstrap.com/docs/4.5/components/modal/ ~ modal
 https://getbootstrap.com/docs/4.5/components/forms/ ~ form
 
+## footer
+Code from the mini project "make your own cv" of the Code Instituut was the basic inspiration for the footer.
+to make it a bit more interactive I used:
+https://ianlunn.github.io/Hover/ to give a delay in the color change when you hover over one of the links in the footer.
+To make the email clickable I used https://www.handleidinghtml.nl/html/hyperlinks/hyperlinks09.html as inspiration.
+To make the phone number clickable I used https://webdev-il.blogspot.com/2011/03/how-to-make-html-link-to-call-phone.html as inspiration.
 
 ## Gitpod Reminders
 
