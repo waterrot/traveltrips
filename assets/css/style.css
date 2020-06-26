@@ -18,6 +18,14 @@ body {
     display: inline-block;
 }
 
+.marginzero {
+    margin: 0px;
+}
+
+.margin25px {
+    margin-left: 25px;
+}
+
 /* backgrounds */
 .bg{
     background-color: #efefef;
@@ -34,11 +42,6 @@ body {
     margin-right: 25px;
     border-radius: 25px;
     width: 150px;
-}
-
-/* logo */
-.img-fluid {
-    margin-left: 25px;
 }
 
 /* fonts */
@@ -73,12 +76,9 @@ footer a:hover {
 }
 
 /* carousel */
-#carousel-height {
+.carousel-height {
     height: auto;
     max-height: 75vh;
     max-width: 100%;
 }
 
-.marginzero {
-    margin: 0px;
-}
