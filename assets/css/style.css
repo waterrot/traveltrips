@@ -82,3 +82,10 @@ footer a:hover {
     max-width: 100%;
 }
 
+.padding-jumbotron {
+    padding: 20px 5px;
+}
+
+.style-jumbotron {
+    background-color: rgba(0, 0, 0, 0.4);
+}
