@@ -74,5 +74,11 @@ footer a:hover {
 
 /* carousel */
 #carousel-height {
-    height: 75vh;
+    height: auto;
+    max-height: 75vh;
+    max-width: 100%;
+}
+
+.marginzero {
+    margin: 0px;
 }
