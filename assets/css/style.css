@@ -71,3 +71,8 @@ footer a:hover {
     color:lightskyblue;
     text-decoration: none;
 }
+
+/* carousel */
+#carousel-height {
+    height: 75vh;
+}
