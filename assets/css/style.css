@@ -18,9 +18,6 @@ body {
     display: inline-block;
 }
 
-.marginzero {
-    margin: 0px;
-}
 
 .margin25px {
     margin-left: 25px;
@@ -82,6 +79,7 @@ footer a:hover {
     max-width: 100%;
 }
 
+/* jumbotron inside carousel*/
 .padding-jumbotron {
     padding: 20px 5px;
 }
