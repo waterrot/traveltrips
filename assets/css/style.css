@@ -2,6 +2,8 @@
 
 body {
     font-family: "Roboto", sans-serif;
+     max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* transformation, genaral settings, padding and margin */
@@ -17,7 +19,6 @@ body {
 .inline-block {
     display: inline-block;
 }
-
 
 .margin25px {
     margin-left: 25px;
@@ -74,9 +75,9 @@ footer a:hover {
 
 /* carousel */
 .carousel-height {
-    height: auto;
-    max-height: 75vh;
-    max-width: 100%;
+    height: 75vh;
+    width: 100%;
+    block-size: cover;
 }
 
 /* jumbotron inside carousel*/
@@ -86,4 +87,14 @@ footer a:hover {
 
 .style-jumbotron {
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+.phototje {
+
+  background: url("/assets/images/canada-photo-fixed.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
 }
