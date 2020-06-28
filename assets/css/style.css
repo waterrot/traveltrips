@@ -101,7 +101,9 @@ footer a:hover {
 }
 
 /* carousel */
-.carousel-height {
+.jumbotron-gen {
+    position: static;
+    padding: 3vh 3vw;
     height: 75vh;
     width: 100%;
     block-size: cover;
@@ -112,12 +114,14 @@ footer a:hover {
     background-color: rgba(0, 0, 0, 0.4);
     margin-bottom: 0px;
     padding: 20px 5px;
+    height: 60vh;
 }
 
 .p-font-slider {
     font-size: 1.2rem;
 }
 
+/*card styling*/
 .card-style {
     margin: 2vh 2vw;
 }
