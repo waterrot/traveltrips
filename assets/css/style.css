@@ -108,13 +108,10 @@ footer a:hover {
 }
 
 /* jumbotron inside carousel*/
-.padding-jumbotron {
-    padding: 20px 5px;
-}
-
 .style-jumbotron {
     background-color: rgba(0, 0, 0, 0.4);
     margin-bottom: 0px;
+    padding: 20px 5px;
 }
 
 .p-font-slider {
