@@ -12,6 +12,11 @@ body {
     padding-right: 0px;
 }
 
+.container-booknow {
+    height: 40vh;
+    background-color: lightblue;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -121,8 +126,24 @@ footer a:hover {
     font-size: 1.2rem;
 }
 
+/*book now section*/
+.center-center-booknow{
+    text-align: center;
+    line-height: 40vh;
+    vertical-align: middle;
+}
+
+.font-style-white {
+    color: #ffffff;
+}
+
 /*card styling*/
 .card-style {
     margin: 2vh 2vw;
     height: 70vh;
+}
+
+.header-cards {
+    text-align: center;
+    margin: 2vh 0;
 }
