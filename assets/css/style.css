@@ -89,8 +89,25 @@ footer a:hover {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.phototje {
+.canada-photo {
+  background: url("/assets/images/canada-photo-fixed.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
+}
 
+.netherlands-photo {
+  background: url("/assets/images/canada-photo-fixed.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
+}
+
+.-italy-photo {
   background: url("/assets/images/canada-photo-fixed.jpg") no-repeat fixed;
   background-size: cover;
   background-position: 50% 50%;
