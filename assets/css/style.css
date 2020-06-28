@@ -2,7 +2,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-     max-width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -27,6 +27,33 @@ body {
 /* backgrounds */
 .bg{
     background-color: #efefef;
+}
+
+.canada-photo {
+  background: url("/assets/images/canada-photo-fixed.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;    
+}
+
+.netherlands-photo {
+  background: url("/assets/images/amsterdam-photo.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;    
+}
+
+.italy-photo {
+  background: url("/assets/images/rome-photo-fixed.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;    
 }
 
 /* navbar */
@@ -87,31 +114,10 @@ footer a:hover {
 
 .style-jumbotron {
     background-color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 0px;
 }
 
-.canada-photo {
-  background: url("/assets/images/canada-photo-fixed.jpg") no-repeat fixed;
-  background-size: cover;
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;    
+.p-font-slider {
+    font-size: 1.2rem;
 }
 
-.netherlands-photo {
-  background: url("/assets/images/amsterdam-foto.jpg") no-repeat fixed;
-  background-size: cover;
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;    
-}
-
-.-italy-photo {
-  background: url("/assets/images/canada-photo-fixed.jpg") no-repeat fixed;
-  background-size: cover;
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;    
-}
