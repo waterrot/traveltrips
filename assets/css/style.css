@@ -113,7 +113,7 @@ footer a:hover {
 .style-jumbotron {
     background-color: rgba(0, 0, 0, 0.4);
     margin-bottom: 0px;
-    padding: 20px 5px;
+    padding: 5vh 2vw;
     height: 60vh;
 }
 
@@ -124,4 +124,5 @@ footer a:hover {
 /*card styling*/
 .card-style {
     margin: 2vh 2vw;
+    height: 70vh;
 }
