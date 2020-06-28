@@ -127,14 +127,18 @@ footer a:hover {
 }
 
 /*book now section*/
-.center-center-booknow{
+.booknow-style{
     text-align: center;
     line-height: 40vh;
     vertical-align: middle;
+    color: #ffffff;
+    font-size: 2rem;
+    word-wrap: break-word;
 }
 
-.font-style-white {
-    color: #ffffff;
+.booknow-style a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /*card styling*/
