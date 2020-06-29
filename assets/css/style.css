@@ -129,11 +129,10 @@ footer a:hover {
 /*book now section*/
 .booknow-style{
     text-align: center;
-    line-height: 40vh;
-    vertical-align: middle;
     color: #ffffff;
     font-size: 2rem;
     word-wrap: break-word;
+    padding-top: 15vh;
 }
 
 .booknow-style a:hover {
@@ -143,11 +142,10 @@ footer a:hover {
 
 /*card styling*/
 .card-style {
-    margin: 2vh 2vw;
-    height: 70vh;
+    margin: 2vh 2vw 8vh;
 }
 
 .header-cards {
     text-align: center;
-    margin: 2vh 0;
+    margin: 10vh 0 3vh;
 }
