@@ -14,11 +14,7 @@ body {
 
 .container-booknow {
     height: 40vh;
-    background-color: lightblue;
-}
-
-.uppercase {
-    text-transform: uppercase;
+    background-color: #ADD8E6;
 }
 
 .inline-block {
@@ -92,7 +88,7 @@ footer .footer-general {
 }
 
 footer a {
-    color: lightgrey;
+    color:#D3D3D3;
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
@@ -101,7 +97,7 @@ footer a {
 }
 
 footer a:hover {
-    color:lightskyblue;
+    color: #87cefa;
     text-decoration: none;
 }
 
@@ -149,3 +145,4 @@ footer a:hover {
     text-align: center;
     margin: 10vh 0 3vh;
 }
+
