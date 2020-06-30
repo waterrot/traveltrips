@@ -18,7 +18,8 @@ body {
 }
 
 .container-get-in-touch {
-    
+    background-color: #efefef;
+    height: 40vh;
 }
 
 .inline-block {
@@ -64,6 +65,7 @@ body {
 .bg-about {
     background: url("/assets/images/canada-photo-card.jpg") no-repeat fixed;
     background-size: cover;
+    display: flex;
 }
 
 .bg-jumbotron {
@@ -160,3 +162,16 @@ footer a:hover {
 }
 
 /* about-us page */
+
+.get-in-touch-style { 
+    text-align: center;
+    color: #000000;
+    font-size: 2rem;
+    word-wrap: break-word;
+    padding-top: 15vh;
+}
+
+.get-in-touch-style a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
