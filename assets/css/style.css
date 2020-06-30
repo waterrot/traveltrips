@@ -58,7 +58,7 @@ body {
 }
 
 .bg-about {
-    background: url("/assets/images/canada-photo-card.jpg") no-repeat fixed;
+    background: url("/assets/images/simon-migaj-Yui5vfKHuzs-unsplash.jpg") no-repeat fixed;
     background-size: cover;
     height: 80vh;
     display: flex;
@@ -162,5 +162,7 @@ footer a:hover {
 
 .bg-jumbotron {
     background-color: #ffffff;
+        display: flex;
+    align-items: center;
 }
 
