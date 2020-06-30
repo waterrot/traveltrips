@@ -148,6 +148,8 @@ footer a:hover {
 
 /* about-us page */
 
-.border-none {
-    border-top: none;
+.header-about-us {
+    text-align: center;
 }
+
+
