@@ -17,6 +17,10 @@ body {
     background-color: #ADD8E6;
 }
 
+.container-get-in-touch {
+    
+}
+
 .inline-block {
     display: inline-block;
 }
@@ -60,8 +64,10 @@ body {
 .bg-about {
     background: url("/assets/images/canada-photo-card.jpg") no-repeat fixed;
     background-size: cover;
-    display: flex;
-    align-items: center;
+}
+
+.bg-jumbotron {
+    background-color: #ffffff;
 }
 
 /* navbar */
@@ -154,12 +160,3 @@ footer a:hover {
 }
 
 /* about-us page */
-
-.header-about-us {
-    text-align: center;
-}
-
-.bg-jumbotron {
-    background-color: #ffffff;
-}
-
