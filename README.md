@@ -27,6 +27,10 @@ https://ianlunn.github.io/Hover/ to give a delay in the color change when you ho
 To make the email clickable I used https://www.handleidinghtml.nl/html/hyperlinks/hyperlinks09.html as inspiration.
 To make the phone number clickable I used https://webdev-il.blogspot.com/2011/03/how-to-make-html-link-to-call-phone.html as inspiration.
 
+
+## our vision text
+https://travmic.com/our-approach-vision-mission/
+
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
