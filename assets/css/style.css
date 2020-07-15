@@ -30,6 +30,14 @@ body {
     margin-left: 25px;
 }
 
+.padding-about-us {
+    padding: 2% 15%;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
 /* backgrounds */
 .bg{
     background-color: #efefef;
@@ -174,17 +182,4 @@ footer a:hover {
 .get-in-touch-style a:hover {
     text-decoration: underline;
     cursor: pointer;
-}
-
-.max-height-person {
-    max-height: 60%;
-    max-width: 60%;
-}
-
-.text-align-center {
-    text-align: center;
-}
-
-.paading {
-    padding: 10px;
 }
