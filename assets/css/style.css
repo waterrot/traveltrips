@@ -38,6 +38,11 @@ body {
     text-align: center;
 }
 
+/* colors */
+.color-about { 
+    color: rgb(136, 136, 136);
+}
+
 /* backgrounds */
 .bg{
     background-color: #efefef;
