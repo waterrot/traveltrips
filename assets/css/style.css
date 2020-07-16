@@ -22,6 +22,10 @@ body {
     height: 40vh;
 }
 
+.vw-max-width-90 {
+    max-width: 90vw;
+}
+
 .inline-block {
     display: inline-block;
 }
@@ -181,7 +185,11 @@ footer a:hover {
     cursor: pointer;
 }
 
-.vw-max-width-90 {
-    max-width: 90vw;
-    
+/* divider */
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+    text-align: left;
 }
