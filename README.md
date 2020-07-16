@@ -31,6 +31,9 @@ To make the phone number clickable I used https://webdev-il.blogspot.com/2011/03
 ## our vision text
 https://travmic.com/our-approach-vision-mission/
 
+## text why visit canada
+https://www.tripsavvy.com/reasons-to-visit-canada-1481722 
+
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
