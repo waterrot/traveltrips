@@ -180,3 +180,8 @@ footer a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
+.vw-max-width-90 {
+    max-width: 90vw;
+    
+}
