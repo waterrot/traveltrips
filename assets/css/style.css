@@ -34,6 +34,10 @@ body {
     text-align: center;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 /* colors */
 .color-about { 
     color: rgb(136, 136, 136);
@@ -155,7 +159,7 @@ footer a:hover {
     padding-top: 15vh;
 }
 
-.booknow-style a:hover {
+.booknow-style:hover {
     text-decoration: underline;
     cursor: pointer;
 }
