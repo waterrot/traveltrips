@@ -34,6 +34,9 @@ https://travmic.com/our-approach-vision-mission/
 ## text why visit canada
 https://www.tripsavvy.com/reasons-to-visit-canada-1481722 
 
+## text spirit island canada page
+https://www.banffjaspercollection.com/attractions/maligne-lake-cruise/stories/how-to-get-to-spirit-island/
+
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
