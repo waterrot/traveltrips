@@ -85,6 +85,10 @@ body {
     background-color: #ffffff;
 }
 
+.back-color-blue {
+    background-color: #ADD8E6;
+}
+
 /* navbar */
 .navbar .navbar-toggler {
     border: 0;
@@ -199,11 +203,12 @@ footer a:hover {
 
 /* country pages */
 .know-more { 
-    color: #0000EE;
+    color: #0000EE !important;
+    text-decoration: none !important;
 }
 
 .know-more:hover {
-    color: #0000EE;
-    text-decoration: underline;
+    color: #0000EE !important;
+    text-decoration: underline !important;
     cursor: pointer;
 }
