@@ -37,6 +37,9 @@ https://www.tripsavvy.com/reasons-to-visit-canada-1481722
 ## text spirit island canada page
 https://www.banffjaspercollection.com/attractions/maligne-lake-cruise/stories/how-to-get-to-spirit-island/
 
+## text Colombia Icefield canada page
+https://www.banffjaspercollection.com/attractions/columbia-icefield/experience/ 
+
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
