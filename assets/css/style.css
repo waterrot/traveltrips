@@ -150,7 +150,7 @@ footer a:hover {
     font-size: 1.2rem;
 }
 
-/*book now section*/
+/*book now section home-page*/
 .booknow-style{
     text-align: center;
     color: #ffffff;
@@ -195,4 +195,15 @@ footer a:hover {
     height: 5px;
     border: 0;
     background-color: #444;
+}
+
+/* country pages */
+.know-more { 
+    color: #0000EE;
+}
+
+.know-more:hover {
+    color: #0000EE;
+    text-decoration: underline;
+    cursor: pointer;
 }
