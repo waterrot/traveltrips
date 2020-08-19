@@ -43,6 +43,14 @@ body {
     color: rgb(136, 136, 136);
 }
 
+.color-links a {
+    color: #000000;
+}
+
+.color-links a:hover {
+    color:#000000;
+}
+
 /* backgrounds */
 .bg{
     background-color: #efefef;
