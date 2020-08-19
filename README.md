@@ -59,6 +59,9 @@ https://www.lonelyplanet.com/the-netherlands
 ## text loosdrechtse plassen netherlands page
 https://www.iamsterdam.com/en/see-and-do/things-to-do/nature/overview/loosdrechtse-plassen
 
+## text amsterdam light festival netherlands page
+https://www.iamsterdam.com/en/see-and-do/whats-on/major-events-and-celebrations/amsterdam-light-festival
+
 ## photo on about-us page 
 https://unsplash.com/photos/Yui5vfKHuzs
 
