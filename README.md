@@ -56,6 +56,9 @@ https://inacitynearyou.net/5-reasons-to-visit-the-vatican/
 ## text why visit the Netherlands
 https://www.lonelyplanet.com/the-netherlands
 
+## text loosdrechtse plassen netherlands page
+https://www.iamsterdam.com/en/see-and-do/things-to-do/nature/overview/loosdrechtse-plassen
+
 ## photo on about-us page 
 https://unsplash.com/photos/Yui5vfKHuzs
 
