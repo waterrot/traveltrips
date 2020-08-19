@@ -40,6 +40,14 @@ https://www.banffjaspercollection.com/attractions/maligne-lake-cruise/stories/ho
 ## text Colombia Icefield canada page
 https://www.banffjaspercollection.com/attractions/columbia-icefield/experience/ 
 
+
+## text why visit italy
+https://www.udrive.com.au/blog/reasons-to-visit-italy/
+
+
+## photo on about-us page 
+https://unsplash.com/photos/Yui5vfKHuzs
+
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
