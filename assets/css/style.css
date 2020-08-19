@@ -223,5 +223,5 @@ footer a:hover {
 
 .pointer:hover {
     cursor: pointer; 
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
