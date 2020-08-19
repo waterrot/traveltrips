@@ -62,6 +62,9 @@ https://www.iamsterdam.com/en/see-and-do/things-to-do/nature/overview/loosdrecht
 ## text amsterdam light festival netherlands page
 https://www.iamsterdam.com/en/see-and-do/whats-on/major-events-and-celebrations/amsterdam-light-festival
 
+## text National Maritime Museum netherlands page
+https://www.hetscheepvaartmuseum.com/
+
 ## photo on about-us page 
 https://unsplash.com/photos/Yui5vfKHuzs
 
