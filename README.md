@@ -53,6 +53,9 @@ http://getarounditaly.com/attractions/rome-attractions/altare-della-patria
 ## text vatican italy page
 https://inacitynearyou.net/5-reasons-to-visit-the-vatican/
 
+## text why visit the Netherlands
+https://www.lonelyplanet.com/the-netherlands
+
 ## photo on about-us page 
 https://unsplash.com/photos/Yui5vfKHuzs
 
