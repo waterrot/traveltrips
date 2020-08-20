@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>TravelTips</title>
+</head>
+<body>
+	<header>
+		<!--Navbar made with the help of Bootstrap-->
+		<nav class="navbar navbar-expand-md navbar-light bg">
+				<a href="." class="navbar-brand">
+					<!--logo-->
+					<img src="assets/images/traveltips_logo2_darker_beter.png" class="img-fluid ml-4" alt="TravelTips logo with mountains" loading="lazy">
+	            </a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+	                    <span class="navbar-toggler-icon"></span>
+	                </button>
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href=".">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about-us.html">About-us</a>
+							</li>
+							<li class="nav-item dropdown active">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Holidays</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<a class="dropdown-item" href="canada.html">Canada</a>
+									<a class="dropdown-item" href="netherlands.html">Netherlands</a>
+									<a class="dropdown-item" href="italy.html">Italy</a>
+								</div>
+							</li>
+						</ul>
+
+                    <!--cta button (modal) with help of bootstrap-->
+                    <button class="btn btn-primary btn-lg my-2 my-sm-0" id="button-book" data-toggle="modal" data-target="#BookModal">
+                        Book now!
+                    </button>
+					</div>
+			
+		</nav>
+	</header>
+    <!--first section, introduction country-->
+    <section>
+        <div class="container-fluid">
+            <div class="row pt-4 pb-5 mx-3">
+                <div class="col-md-6 align-items-center mt-4">
+                   <img src="assets/images/canada-photo-card.jpg" class="w-100 vw-max-width-90" alt="photo of canada" loading="lazy">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="mt-4">Why visit Canada?</h1>
+                    <hr class="block-divider ml-1">
+                    <p>
+                        The expanse of Canada's natural beauty, 
+                        from mountains and glaciers to secluded 
+                        lakes and forests, is almost unparalleled 
+                        worldwide. But Canada's allure is not just 
+                        the great outdoors. Canada has cosmopolitan 
+                        cities that are clean, safe, friendly, and 
+                        multicultural. In fact, Canada repeatedly 
+                        is lauded as one of the world's most livable 
+                        countries. Whether your interests are river 
+                        rafting or live theater, Canada won’t disappoint.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--second section, place 1-->
+    <section class="back-color-blue">
+        <div class="container-fluid">
+             <div class="row pt-4 pb-5 mx-3">
+                <div class="col-md-8">
+                    <h1 class="mt-4">Location 1: Spirit Island</h1>
+                    <hr class="block-divider ml-1">
+                    <p>
+                        There are 14 blissful kilometres (8.7 miles) 
+                        between the docks at Maligne Lake and spectacular 
+                        Spirit Island, perhaps the most picturesque island 
+                        in all of the Canadian Rockies. Nestled in the heart 
+                        of a turquoise alpine lake and surrounded by towering 
+                        peaks, Spirit Island is a must on any trip to the Rockies.
+                    </p>
+                    <p>
+                        Want to know how to get to spirit island? <a data-toggle="modal" data-target="#BookModal" class="know-more">Click here</a> to book a trip and get a discount!
+                    </p>
+                </div>
+                <div class="col-md-4 align-items-center mt-4">
+                   <img src="assets/images/canada-photo-fixed-small.jpg" class="w-100 vw-max-width-90" alt="photo of canada" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--third section, place 2-->
+    <section>
+        <div class="container-fluid">
+             <div class="row pt-4 pb-5 mx-3">
+                <div class="col-md-4 align-items-center mt-4">
+                   <img src="assets/images/canada-glacier.jpg" class="w-100 vw-max-width-90" alt="photo of canada" loading="lazy">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="mt-4">Location 2: Columbia Icefield</h1>
+                    <hr class="block-divider ml-1">
+                    <p>
+                        Visiting the Columbia Icefield and the Athabasca 
+                        Valley is like peering into the heart of the planet. 
+                        Geologically, time moves incredibly slow here. And 
+                        yet, we can see change happening right in front of 
+                        our eyes. Though apparently tranquil, the Columbia 
+                        Icefield is a powerful, dynamic force, constantly 
+                        shaping the regional landscape. Located in Jasper 
+                        National Park, glaciers here endlessly advance and 
+                        retreat in an ancient elemental dance. This is a 
+                        place where time is measured in millennia and yet 
+                        the present moment is incredibly powerful.
+                    </p>
+                    <p>
+                        Want to know how to get to the Colombia Icefield? <a data-toggle="modal" data-target="#BookModal" class="know-more">Click here</a> to book a trip  and get a discount!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--fourth section, place 3-->
+    <section class="back-color-blue">
+        <div class="container-fluid">
+             <div class="row pt-4 pb-5 mx-3">
+                <div class="col-md-8">
+                    <h1 class="mt-4">Location 3: Suspension Bridge Park</h1>
+                    <hr class="block-divider ml-1">
+                    <p>
+                        Close to Vancouver you have the Capilano Suspension Brigde Park.
+                        In the park you can walk from tree to tree using gaint wooden brigdes.
+                        The largest brigde is 450 feet (137 meter) long and hangs on 230 feet 
+                        (70 meter) above Capilano River. It is a beautiful park to walk through
+                        when you are near Vancouver. It is perfect for the whole family to enjoy
+                        a wonderfull afternoon in one of the most beautiful areas in North-America.
+                    </p>
+                    <p>
+                        Want to know how to get to spirit island? <a data-toggle="modal" data-target="#BookModal" class="know-more">Click here</a> to book a trip  and get a discount!
+                    </p>
+                </div>
+                <div class="col-md-4 align-items-center mt-4">
+                   <img src="assets/images/canada-bridge.jpg" class="w-100 vw-max-width-90" alt="photo of canada" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--fifth section, information section (basic structure is from bootstrap)-->
+    <section>
+    <div class="container-fluid">
+        <div class="row my-4 mx-3">
+            <div class="col-12">
+                <h1 class="mt-4">Transport and staying in Canada</h1>
+                <hr class="block-divider ml-1">
+                <div class="accordion" id="accordionExample">
+                    <!--Information about hotels-->
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Hotels
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body color-links">
+                                <p>
+                                    <b><a data-toggle="modal" data-target="#BookModal" class="pointer">Get in touch with us to get a 30% discount on all these hotels!</a></b>
+                                </p>
+                                <p>
+                                    <a target="_blank" href="https://www.google.com/travel/hotels/Nationaal%20park%20Jasper/entity/CgoI5fyBs4f5r_EKEAE?g2lb=2502548%2C4258168%2C4270442%2C4306835%2C4308227%2C4317915%2C4322823%2C4328159%2C4371334%2C4401769%2C4403882%2C4419364%2C4424916%2C4426349%2C4270859%2C4284970%2C4291517%2C4412693&hl=nl&gl=nl&un=1&ap=aAE&q=hotel%20close%20to%20spirit%20island%20canada&rp=EOX8gbOH-a_xChCe-oCV5IqnnwY4AUAASAKiATtTcGlyaXQgSXNsYW5kLCBJbXByb3ZlbWVudCBEaXN0cmljdCBOby4gMTIsIEFsYmVydGEsIENhbmFkYcABAw&ictx=1&utm_campaign=sharing&utm_medium=link&utm_source=htls&hrf=CgUI-AUQACIDRVVSKhYKBwjkDxAIGBgSBwjkDxAIGBkYASgAWAGSAQIgAQ">
+                                    Sunwapta Falls Rocky Mountain Lodge (Spirit Island)</a> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i>
+                                </p>
+                                <p>   
+                                    <a target="_blank" href="https://www.booking.com/hotel/ca/glacier-view-inn.en-gb.html?aid=314919;label=columbia-icefield-1Uj53cDjWDA11Lft9pTvLQS76752525794%3Apl%3Ata%3Ap12%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-26389042634%3Alp9064047%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YfOICo1LOVmejEBpLq7NOGI;sid=61e0fef59f806d00a599e736e588c73f">
+                                    Glacier View Lodge Hotels (Colombia Icefield)</a> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i>
+                                </p>
+                                <p>
+                                    <a target="_blank" href="https://www.tripadvisor.nl/Hotel_Review-g154943-d182513-Reviews-Blue_Horizon_Hotel-Vancouver_British_Columbia.html">
+                                    Blue Horizon Hotel (Suspension Bridge Park)</a> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--information about flights-->
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Flights
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body color-links">
+                                <p>
+                                    <b><a data-toggle="modal" data-target="#BookModal" class="pointer">Get in touch with us to get a 15% discount on your flight!</a></b>
+                                </p>
+                                <p>
+                                    <a target="_blank" href="https://www.google.nl/flights/">
+                                    Google Flights</a> <i class="fas fa-plane-departure"></i>
+                                </p>
+                                <p>
+                                    <a target="_blank" href="https://www.skyscanner.net/">
+                                    Skyscanner</a> <i class="fas fa-plane"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--information about cars-->
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Transportation on destinations
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body color-links">
+                                <p>
+                                    <b><a data-toggle="modal" data-target="#BookModal" class="pointer">Get in touch with us to get a 25% discount on your car rental!</a></b>
+                                </p>
+                                <p>
+                                    <a target="_blank" href="https://www.rentalcars.com/en/city/ca/vancouver/?affiliateCode=google&preflang=en&label=vancouver-WWvMinbNG36tirFrp_Dh_AS282759267267&ws=&ppc_placement=&ppc_target=&ppc_param1=&ppc_param2=&aceid=&adposition=&ppc_network=g&feeditemid=&ppc_targetid=kwd-51569641&loc_physical_ms=9064047&loc_interest_ms=&ppc_device=c&ppc_devicemodel=&gclid=CjwKCAjwm_P5BRAhEiwAwRzSOwLJqTuPvCInXQyzCtktoOq83K2OMbGfLlMJSIbAnyr8sH4bztA5oBoC-zoQAvD_BwE">
+                                    Rentelcars (for a normal car)</a> <i class="fas fa-car"></i>
+                                </p>
+                                <p>
+                                    <a target="_blank" href="https://www.fraserway.com/rentals/vehicles?gclid=CjwKCAjwm_P5BRAhEiwAwRzSOyt6HzAzO3aELI7uTSqjghMCgizjs8qXwkLEPxAb_Sfrqjh_Px073hoC1J4QAvD_BwE">
+                                    Fraserway (for a RV)</a> <i class="fas fa-bus"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--sixth section, cta section-->
+    <section class="back-color-blue">
+        <div class="container-fluid container-get-in-touch">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="get-in-touch-style text-uppercase">
+                        <a data-toggle="modal" data-target="#BookModal">
+                            Get in touch now!!
+                        </a>
+                    </h2>
+                </div>
+			</div>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="footer-general row">
+             <div class="col-sm-4">
+                <a href="about-us.html">
+                    <h5>About us</h5>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                    <h5>Holidays:</h5>
+                    <p><a href="canada.html">Canada</a></p>
+                    <p><a href="netherlands.html">Netherlands</a></p>
+                    <p><a href="italy.html">Italy</a></p>
+            </div>
+            <div class="col-sm-4">
+                <h5>Contact information:</h5>
+                <p>email: <a href="mailto:info@traveltips.com?SUBJECT=Reaction">info@traveltips.com</a></p>
+                <p>Phone: <a href="tel:0031620521519">(+31) 6 205 215 19</a></p>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com">
+                            <i class="fa fa-facebook fa-2x fa-fw" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com">
+                            <i class="fa fa-instagram fa-2x fa-fw" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com">
+                            <i class="fa fa-youtube fa-2x fa-fw" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.twitter.com">
+                            <i class="fa fa-twitter fa-2x fa-fw" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+
+    <!-- Modal (basic structure is from bootstrap)-->
+	<div class="modal fade" id="BookModal" tabindex="-1" role="dialog" aria-labelledby="BookModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="BookModalLabel">Get in contact now!</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+				</div>
+				<div class="modal-body">
+                    <!--get in touch form-->
+                    <form>
+                    <div class="form-row">
+                    <!--first name-->
+                        <div class="col-md-6 mb-3">
+                            <label for="fname">First name: *</label>
+                            <input type="text" class="form-control" id="fname" placeholder="first name" required>
+                        </div>
+                    <!--last name-->    
+                        <div class="col-md-6 mb-3">
+                            <label for="lname">Last name: *</label>
+                            <input type="text" class="form-control" id="lname" placeholder="last name" required>
+                        </div>
+                    </div>
+                    <!--email-->
+                        <div class="form-group">
+                            <label for="email">Email address: *</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                        </div>
+                    <!--country-->
+                        <div class="form-group">
+                            <label for="country">Choose a country: *</label>
+                            <select class="form-control" id="country" required>
+                                <option>Canada</option>
+                                <option>Netherlands</option>
+                                <option>Italy</option>
+                            </select>
+                        </div>
+                    <!--room for comments-->
+                        <div class="form-group">
+                            <label for="story">What are you looking for? *</label>
+                            <textarea class="form-control" id="story" rows="5" placeholder="space for quetions and comments" required></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+					        <button type="submit" class="btn btn-primary">Submit now!</button>
+                        </div>
+                    </form>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!--scrips to make things more interactive-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </footer>
+</body>
+</html>
