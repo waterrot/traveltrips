@@ -56,7 +56,7 @@ body {
 }
 
 .canada-photo {
-  background: url("assets/images/canada-photo-fixed.jpg") no-repeat fixed;
+  background: url("/assets/images/canada-photo-fixed.jpg") no-repeat fixed;
   background-size: cover;
   background-position: 50% 50%;
   -webkit-background-size: cover;
@@ -65,7 +65,7 @@ body {
 }
 
 .netherlands-photo {
-  background: url("assets/images/amsterdam-photo.jpg") no-repeat fixed;
+  background: url("/assets/images/amsterdam-photo.jpg") no-repeat fixed;
   background-size: cover;
   background-position: 50% 50%;
   -webkit-background-size: cover;
@@ -74,7 +74,7 @@ body {
 }
 
 .italy-photo {
-  background: url("assets/images/rome-photo-fixed.jpg") no-repeat fixed;
+  background: url("/assets/images/rome-photo-fixed.jpg") no-repeat fixed;
   background-size: cover;
   background-position: 50% 50%;
   -webkit-background-size: cover;
@@ -83,7 +83,7 @@ body {
 }
 
 .bg-about {
-    background: url("assets/images/canada-photo-card.jpg") no-repeat fixed;
+    background: url("/assets/images/canada-photo-card.jpg") no-repeat fixed;
     background-size: cover;
     display: flex;
 }
